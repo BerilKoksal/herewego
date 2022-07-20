@@ -16,6 +16,8 @@
 		1955D20A2886AD510028285C /* myappTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1955D2092886AD510028285C /* myappTests.swift */; };
 		1955D2142886AD510028285C /* myappUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1955D2132886AD510028285C /* myappUITests.swift */; };
 		1955D2162886AD510028285C /* myappUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1955D2152886AD510028285C /* myappUITestsLaunchTests.swift */; };
+		19B58DC1288733F100517E35 /* TableController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19B58DC0288733F100517E35 /* TableController.swift */; };
+		19B58DC32887345300517E35 /* TableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19B58DC22887345300517E35 /* TableCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		1955D2152886AD510028285C /* myappUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myappUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		1955D2232886AD920028285C /* Development.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Development.xcconfig; sourceTree = "<group>"; };
 		1955D2242886ADA60028285C /* Production.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Production.xcconfig; sourceTree = "<group>"; };
+		19B58DC0288733F100517E35 /* TableController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableController.swift; sourceTree = "<group>"; };
+		19B58DC22887345300517E35 /* TableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +113,8 @@
 				1955D1FB2886AD510028285C /* Assets.xcassets */,
 				1955D1FD2886AD510028285C /* LaunchScreen.storyboard */,
 				1955D2002886AD510028285C /* Info.plist */,
+				19B58DC0288733F100517E35 /* TableController.swift */,
+				19B58DC22887345300517E35 /* TableCell.swift */,
 			);
 			path = myapp;
 			sourceTree = "<group>";
@@ -270,6 +276,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				19B58DC32887345300517E35 /* TableCell.swift in Sources */,
+				19B58DC1288733F100517E35 /* TableController.swift in Sources */,
 				1955D1F72886AD450028285C /* ViewController.swift in Sources */,
 				1955D1F32886AD450028285C /* AppDelegate.swift in Sources */,
 				1955D1F52886AD450028285C /* SceneDelegate.swift in Sources */,
